@@ -6,7 +6,7 @@ Usage Example
 -------------
 
 ``` php
-$this->getContainer()->get('smsapi');
+$SMSAPIHandler = $this->get('smsapi')->login();
 ```
 Configuration config.yml example
 -------------

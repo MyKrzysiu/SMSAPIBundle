@@ -28,10 +28,13 @@ class SMSAPIService
     public function __construct(array $config)
     {
         $this->config = $config;
-        
-        return $this->login();
     }
     
+    /**
+     * Login
+     *
+     * @return SMSApi\Api\SmsFactory;
+     */
     public function login()
     {
         $client = new Client($this->config['login']);
