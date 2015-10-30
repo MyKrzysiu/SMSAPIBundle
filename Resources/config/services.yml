@@ -1,0 +1,4 @@
+services:
+    smsapi:
+        class:     MyKrzysiu\SMSAPIBundle\Services\SMSAPIService
+        arguments: ["%my_krzysiu_smsapi.config%"]
