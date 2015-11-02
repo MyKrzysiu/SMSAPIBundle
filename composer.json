@@ -13,7 +13,7 @@
 
     "require": {
         "php":                       ">=5.3.2",
-        "smsapi/smsapi-php-client":             "*",
+        "smsapi/php-client":         "*",
         "symfony/framework-bundle":  ">=2.0.0"
     },
 
