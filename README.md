@@ -28,7 +28,8 @@ Add the following lines to your `composer.json` file and then run `php composer.
 ```json
 {
     "require": {
-        "MyKrzysiu/SMSAPIBundle": "dev-master"
+        "mykrzysiu/sms-api-bundle": "dev-master"
+
     }
 }
 ```
