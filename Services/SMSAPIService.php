@@ -36,7 +36,7 @@ class SMSAPIService
      * @return SMSApi\Api\SmsFactory;
      */
     public function login()
-    {
+    { 
         $client = new Client($this->config['login']);
         $client->setPasswordHash(md5($this->config['password']));
         
@@ -45,7 +45,10 @@ class SMSAPIService
         if($this->config['second_channel'])
             $proxy = new Native('https://api2.smsapi.pl');
 
-        return new SmsFactory($proxy);
+        $smsapi = new SmsFactory($proxy);
+        $smsapi->setClient($client);
+        
+        return $smsapi;
     }
 
   
