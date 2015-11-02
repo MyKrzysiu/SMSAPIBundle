@@ -1,5 +1,5 @@
 {
-    "name": "MyKrzysiu/SMSAPIBundle",
+    "name": "mykrzysiu/sms-api-bundle",
     "type": "symfony-bundle",
     "description": "SMSAPI.pl Bundle for Symfony2",
     "keywords": ["smsapi"],
@@ -20,6 +20,4 @@
     "autoload": {
         "psr-0": { "MyKrzysiu\\SMSAPIBundle": "" }
     },
-
-    "target-dir": "MyKrzysiu/SMSAPIBundle"
 }
